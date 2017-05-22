@@ -10,3 +10,7 @@ if [ "$ubuntu_version" == '12.04' ]; then
 fi
 
 sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install python2.7 -y
+sudo apt-get dist-upgrade -y
+
